@@ -1,0 +1,82 @@
+body{
+    background-color: turquoise;
+}
+
+#container{
+   max-width: 50rem;
+   max-height: 200rem;
+   background-color: #ffffff;
+   margin: 1rem auto;
+   border-radius: 2rem;
+   padding: 1rem;
+}
+
+#userinput{
+    background-color: #b6dbcf;
+    margin: 1rem auto;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+#form{
+    text-align: center;
+}
+
+
+
+#form h1{
+    font-family: 'Martel', serif;
+    font-size: 3rem;
+text-align: center;
+}
+
+#form h2{
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+#form p{
+    font-family: 'Caladea', serif;
+    font-size: 2rem;
+}
+
+.questions p{
+    font-size: 1.5rem;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+.option{
+    background-color: #cccccc;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.questionNumber{
+    display: none;
+}
+
+.qn{
+    display: none;
+}
+
+.buttons{
+    display: none;
+}
+
+.submit{
+    margin-top: 0.5rem;
+}
+
+.footer{
+  margin-top: 1rem;
+    background-color: #99cccc;
+    text-align: center;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+
+
+
+

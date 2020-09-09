@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 4(Javascript)</title>
+        <link rel="stylesheet" href="style.css">        
+        <link href="https://fonts.googleapis.com/css?family=Martel&display=swap" rel="stylesheet">        
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Caladea&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <div id="container">
+      
+          <section id="userinput">
+              <form id="form">
+                  <h1>Welcome to Javascript Quiz Game</h1>
+                  <h2>Login To Play</h2>
+                  <p>Username:</p>
+                  <input type="text" id="input" size="30rem" name="username"><br>
+                  <button type="button" id="button">Start Button</button> 
+                  <h3></h3>
+              </form>
+          </section>
+
+          <div class="questionNumber">
+           <h4>Question <span class="qnIndex">1</span> of 5</h4>
+          </div>
+
+        <div class="questions">
+
+     <form id="ques" name="Quiz">
+
+          <div class="qn capital">
+           
+              <p>What is the capital city of Nepal?</p>
+              <div class="option">
+               
+              <input type="radio" id="one" name="city" value="Kathmandu">Kathmandu<br>
+              <input type="radio" id="two" name="city" value="Biratnagar">Biratnagar<br>
+              <input type="radio" id="three" name="city" value="Pokhara">Pokhara<br>
+              <input type="radio" id="four" name="city" value="Dharan">Dharan<br>
+
+              </div>
+             
+             
+            </div>
+
+          <div class="qn stadium">
+             
+                  <p>What is the stadium name of Chelsea F.C?</p>
+                  <div class="option">
+                      
+                      <div>
+                    <label for="utd" >Old Trafford</label>
+                    <input type="checkbox" id="utd" name="stadium" value="manu">
+                     </div>
+
+                     <div>
+                    <label for="cty">Etihad Stadium</label>
+                    <input type="checkbox" id="cty" name="stadium" value="manc">
+                  </div>
+
+                  <div>
+                    <label for="bridge">Stanford</label>
+                    <input type="checkbox" id="bridge" name="stadium" value="Stanford">
+                </div>
+
+                <div>
+                    <label for="red">Anfield</label>
+                    <input type="checkbox" id="red" name="stadium" value="lfc">
+                </div>
+               
+
+                </div>
+               
+            </div>
+
+          <div class="qn league">
+             
+              <div class="option">
+             
+                  Who won the Champions League in 2019?<br>
+                  <input type="text" id="league" size="30" name="champ"><br>
+             
+              </div>
+             
+            </div>
+
+
+        <div class="qn java">
+          
+            <p>public static void main(String[] args){<br>
+                int numbers[][]={{1,2,3},
+                                {4,5,6},
+                                {7,8,9}
+                            };<br>
+                        System.out.println(numbers[1][2]);
+            }
+            </p>
+             <p>What is the output?</p>
+             <div class="option">
+             <input type="radio" name="java" value="6">6<br>
+             <input type="radio" name="java" value="error">Error<br>
+             <input type="radio" name="java" value="3">3<br>
+             <input type="radio" name="java" value="excpetion">ArrayIndexOutOfBoundException
+             </div>           
+        </div>
+
+        <div class="qn mountains">
+            <h2>Which one is the Mount Everest?</h2>
+            <img src="Images/annapurna.PNG" alt="Annapurna" data-mountain="Mt. Annapurna">
+            <img src="Images/everest.PNG" alt="Everest" data-mountain="Mt.Everest">
+            <img src="Images/makalu.PNG" alt="Makalu" data-mountain="Mt.Makalu">
+            <img src="Images/amadablam.PNG" alt="Amadablam" data-mountain="Mt. Amadablam">
+            <h2 id="message"></h2>
+        </div>
+
+        <div class="qn players">
+            <h2>Who is Eden Hazard?</h2>
+            <img src="Images/hazard.PNG" alt="Hazard" data-player="Eden Hazard">
+            <img src="Images/torgan.PNG" alt="Thorgan" data-player="Thorgan Hazard">
+            <img src="Images/costa.PNG" alt="Costa" data-player="Diego Costa">
+            <img src="Images/willian.PNG" alt="Willian" data-player="Willian">
+            <h2 id="player"></h2>
+        </div>
+
+        <div class="qn google">
+            <div class="option">           
+                When was Google Founded?Write AD.For ex:2020 <br>
+            <input type="text" name="founder" id="google" size="30"><br>
+        </div>
+        </div>
+
+        <div class="qn pm">
+            <p>Who is the PM of GBR?</p>
+            <div class="option">
+                <input type="radio" name="pm" value="Boris Johnson" >Boris Johnson<br>
+                <input type="radio" name="pm" value="Kp Oli">Kp Oli<br>
+                <input type="radio" name="pm" value="William">William<br>
+                <input type="radio" name="pm" value="Harry">Harry
+                </div>
+        </div>
+
+        <div class="qn football">
+            <p>Who was the PL highest scorer in 2019?</p>
+            <div class="option">
+            <div>
+              <input type="checkbox" id="b" name="score" value="Eden Hazard">
+                <label for="b" >Eden Hazard</label>
+            </div>
+            <div>
+              <input type="checkbox" id="b" name="score" value="sa">
+              <label for="b">Sergio Aguiro</label>
+          </div>
+          <div>
+              <input type="checkbox" id="b" name="score" value="messi">
+              <label for="b">Lionel Messi</label>
+          </div>
+          <div>
+              <input type="checkbox" id="b" name="score" value="ronaldo">
+              <label for="b">Cristiano Ronaldo</label>
+          </div>
+      </div>
+        </div>
+
+        <div class="qn city">
+            <div class="option">
+               
+                    What is the capital city of Turkey?<br>
+                <input type="text" name="capital" id="city" size="30"><br>
+                <!-- <p id="t"></p> -->
+                
+            </div>
+        </div>
+</form>
+        </div>
+
+        <!-- div class questions ends here -->
+
+        <div class="buttons">
+            <button type="button" id="prevBtn">Previous</button>
+            <button type="button" id="nextBtn">Next</button>
+        </div>
+
+        <div class="submit">
+            <button type="button" id="submit">Submit</button>
+        </div>
+
+        <p id="correct"></p>
+
+        <div class="footer">
+            <h2>Quiz By Sandip Tamang</h2>
+            <p>Student number: 3005816</p>
+            <p>Email:<a href="mailto:sandiptmg1010@gmail.com">sandiptmg1010@gmail.com</a></p>
+        </div>
+
+        </div>
+        <!-- container id ends here -->
+        <script src="script.js"></script>
+    </body>
+</html>
